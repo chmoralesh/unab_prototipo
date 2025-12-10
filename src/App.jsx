@@ -4,7 +4,7 @@ function App() {
   return (
     <>
       <WaterMonitorPrototipo />
-      <p className="read-the-docs">Holaaa</p>
+      {/* <p className="read-the-docs">Holaaa</p> */}
     </>
   );
 }
