@@ -1,0 +1,28 @@
+/* ESTE ARCHIVO CARGA LAS DIRECTIVAS DE TAILWIND CSS. 
+  Debe ser importado en el punto de entrada de tu aplicación, 
+  por ejemplo, en main.jsx o index.js.
+*/
+
+/* 1. Base: Resetea estilos de navegador y aplica clases base de Tailwind. */
+@tailwind base;
+
+/* 2. Components: Clases para componentes predefinidos (si usas plugins). */
+@tailwind components;
+
+/* 3. Utilities: Clases como flex, bg-blue-500, p-4, etc. */
+@tailwind utilities;
+
+/* Estilos adicionales (opcionales)
+  Aquí puedes añadir CSS personalizado si es necesario.
+*/
+
+/* Asegura que la aplicación ocupe toda la altura disponible
+  para que 'min-h-screen' funcione correctamente. 
+*/
+html,
+body,
+#root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
